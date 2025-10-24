@@ -254,17 +254,21 @@ local show_mirrors = function(eye, f3, tall, thin)
 end
 
 local thin_enable = function()
+	waywall.set_sensitivity(0)
     show_mirrors(false, true, false, true)
 end
 
 local tall_enable = function()
+	waywall.set_sensitivity(0.8634803836976988)
 	show_mirrors(true, true, true, false)
 end
 local wide_enable = function()
+	waywall.set_sensitivity(0)
 	show_mirrors(false, false, false, false)
 end
 
 local res_disable = function()
+	waywall.set_sensitivity(0)
     show_mirrors(false, false, false, false)
 end
 
@@ -281,7 +285,7 @@ local config = {
         repeat_rate = 40,
         repeat_delay = 300,
 
-        sensitivity = 1.0,
+        sensitivity = 12.800000599064097,
         confine_pointer = false,
         remaps = keybind_remaps
     },
