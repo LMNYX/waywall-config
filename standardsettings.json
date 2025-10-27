@@ -120,10 +120,7 @@
     "enabled": false,
     "value": false
   },
-  "pieDirectory": {
-    "enabled": false,
-    "value": "root"
-  },
+  "pieDirectory": "root.gameRenderer.level.entities",
   "perspective": {
     "enabled": false,
     "value": 0
