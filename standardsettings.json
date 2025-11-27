@@ -65,21 +65,15 @@
   "key_key.hotbar.2": "key.keyboard.2",
   "key_key.hotbar.3": "key.keyboard.3",
   "key_key.hotbar.4": "key.keyboard.4",
-  "key_key.hotbar.5": "key.keyboard.5",
-  "key_key.hotbar.6": "key.keyboard.6",
-  "key_key.hotbar.7": "key.keyboard.7",
+  "key_key.hotbar.5": "key.keyboard.z",
+  "key_key.hotbar.6": "key.keyboard.x",
+  "key_key.hotbar.7": "key.keyboard.c",
   "key_key.hotbar.8": "key.keyboard.r",
   "key_key.hotbar.9": "key.mouse.4",
   "key_key.inventory": "key.keyboard.e",
   "key_key.swapOffhand": "key.keyboard.f",
-  "key_key.loadToolbarActivator": {
-    "enabled": false,
-    "value": "key.keyboard.x"
-  },
-  "key_key.saveToolbarActivator": {
-    "enabled": false,
-    "value": "key.keyboard.c"
-  },
+  "key_key.loadToolbarActivator": "key.keyboard.apostrophe",
+  "key_key.saveToolbarActivator": "key.keyboard.semicolon",
   "key_key.playerlist": "key.keyboard.tab",
   "key_key.chat": "key.keyboard.t",
   "key_key.command": "key.keyboard.slash",
@@ -112,14 +106,8 @@
   "toggleSprint": 0,
   "pauseOnLostFocus": true,
   "advancedItemTooltips": true,
-  "hitboxes": {
-    "enabled": false,
-    "value": false
-  },
-  "chunkborders": {
-    "enabled": false,
-    "value": false
-  },
+  "hitboxes": true,
+  "chunkborders": false,
   "pieDirectory": "root.gameRenderer.level.entities",
   "perspective": {
     "enabled": false,
